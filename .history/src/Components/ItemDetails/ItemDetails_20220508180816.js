@@ -1,4 +1,4 @@
-// import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 function ItemDetails() {
@@ -16,7 +16,7 @@ function ItemDetails() {
   return (
     <div>
       <div>ItemDetails page</div>
-      <h2>item : {id}</h2>
+      <h2>item : {Iteme.id}</h2>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 const Item = ({ item }) => {
   const { _id, name, img, description, price } = item;
@@ -20,7 +19,7 @@ const Item = ({ item }) => {
             {/* <button onClick={() => navigateToItems(_id)}>Item update</button> */}
             <Link
               variant="primary"
-              to={`/ItemDetails/${_id}`}
+              to={`/ItemDetails/${iid}`}
               class="btn btn-primary"
             >
               Update Item
